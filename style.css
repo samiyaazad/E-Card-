@@ -91,13 +91,18 @@ input:checked + label .description {
 
 .card[for="c1"] {
     background-image: url('./Yuzuru.PNG');
+    background-position: center;
 }
 .card[for="c2"] {
     background-image: url('./Anna\ Shcherbakova.jpg');
 }
 .card[for="c3"] {
-    background-image: url('./Anna\ Shcherbakova.jpg');
+    background-image: url('./Alexandra\ Trusova\ .jpg');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .card[for="c4"] {
     background-image: url('./Yuna\ Kim.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
 }
