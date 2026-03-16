@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-Card for Yuzuru Hanyu</title>
+        <link rel="stylesheet" href="./yuzuru.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Yuzuru Hanyu</strong>
+                            <p>Watching Yuzuru Hanyu skate as a kid made me believe in dreams.  
+                            I memorized every time he would be on TV, skipped cartoons just to see him glide as 5 years old . 
+                            He showed me that when you love what you do, everyone can feel that love.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="heart"></div>
+            </div>
+        </div>
+        <script>
+            const envelope = document.querySelector('.envelope-wrapper');
+            envelope.addEventListener('click',() => {
+                envelope.classList.toggle('flap');
+            });
+        </script>
+    </body>
+</html>

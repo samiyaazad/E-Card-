@@ -38,14 +38,14 @@ body {
 }
 
 .card > .row {
-    color: white;
+    color: rgb(234, 7, 188);
     display: flex;
     flex-wrap: nowrap;
 }
 
 .card > .row > .icon {
-    background: #223;
-    color: white;
+    background: rgb(0, 0, 3);
+    color: rgb(241, 241, 241);
     border-radius: 50%;
     width: 50px;
     display: flex;
@@ -68,7 +68,7 @@ body {
 }
 
 .description p {
-    color: #b0b0ba;
+    color: #e6096d;
     padding-top: 5px;
 }
 
